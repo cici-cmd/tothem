@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #000;
     height: 100vh;
@@ -47,10 +52,11 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
+
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 30px 4%;
-    box-shadow: 0 0 30px 5px #ffffff1d;
+    box-shadow: 0 0 40px 5px #ffffff1d;
 }
 
 header>.interface {
@@ -204,7 +210,7 @@ section.topo-do-site .flex {
 /* ESTILO DAS ESPECIALIDADES */
 section.especiliadades {
     padding: 80px 4%;
-    box-shadow: 0 0 30px 5px #ffffff1d;
+    box-shadow: 0 0 40px 5px #ffffff1d;
 }
 
 section.especiliadades .flex {
@@ -286,7 +292,7 @@ section.sobre .flex {
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 30px 5px #ffffff1d;
+    box-shadow: 0 0 40px 5px #ffffff1d;
 }
 
 section.portfolio .flex {
@@ -333,7 +339,21 @@ section.portfolio .flex {
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
-    padding: 80px 4%;
+    padding: 40px 4%;
+}
+
+section.formulario .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.formulario .img-form img {
+    width: 580px;
+    height: 680px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 15px;  
 }
 
 form {
@@ -381,7 +401,7 @@ form .btn-enviar input {
 
 footer {
     padding: 20px 4%;
-    box-shadow: 0 0 30px 5px #ffffff1d;
+    box-shadow: 0 0 40px 5px #ffffff1d;
 }
 
 footer .flex {
